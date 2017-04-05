@@ -13,6 +13,22 @@
 	<input type="text" name="uid" placehoder="UID">
 	<button>전송</button>
 </form>
+
+<hr>
+
+	<%
+	
+	/*	
+	Class.forName("org.mariadb.jdbc.Driver");
+	Connection connection = DriverManager.getConnection("jdbc:mariadb://necar.cpadceg14xtd.ap-northeast-2.rds.amazonaws.com:3306/necar?user=root&password=nechaawsrdspassword");
+	if (connection != null){
+		out.println("접속 성공");
+		connection.close();
+	}else{
+		out.println("접속 실패");
+	}
+	*/
+	%>	
 	
 </body>
 </html>

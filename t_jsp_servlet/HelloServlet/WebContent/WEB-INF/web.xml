@@ -21,6 +21,14 @@
       <param-value>33</param-value>
     </init-param>
   </servlet>
+  <servlet>
+    <servlet-name>jspInitParams</servlet-name>
+    <jsp-file>/jspinitparams.jsp</jsp-file>
+    <init-param>
+      <param-name>localhost</param-name>
+      <param-value>127.0.0.1</param-value>
+    </init-param>
+  </servlet>
   <servlet-mapping>
     <servlet-name>initParams</servlet-name>
     <url-pattern>/HelloServlet/InitParams</url-pattern>
