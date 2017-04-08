@@ -30,13 +30,14 @@ public class LifeCyclePrint extends HttpServlet {
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("service() : 호출됨");
+		response.setContentType("text/plain;charset=UTF-8");
 		super.service(request, response);
 	}
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("doGet() : 호출됨 get요청");
-		
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		System.out.println("doGet() : 호출됨 get요청");		
+		// TODO 무언가 수정하고 저장 (서버 자동 감지) 후 확인하기
+		response.getWriter().append("서버의 로그를 보세요.");
 	}
 
 }

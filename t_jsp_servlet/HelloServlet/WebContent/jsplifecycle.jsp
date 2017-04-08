@@ -10,6 +10,6 @@
 	}
 %>
 <%
-	out.println("Hello 1");
+	out.println("Hello");
 	// out.println("Hello 2");
 %>

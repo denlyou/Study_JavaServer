@@ -9,3 +9,4 @@
 - [Servlet 생명주기 (Lifecycle)](t_jsp_servlet/03.md)
 - [JSP 기본 구성](t_jsp_servlet/04.md)
 - [JSP Lifecycle](t_jsp_servlet/05.md)
+- [Cookie 처리 기술](t_jsp_servlet/06.md)

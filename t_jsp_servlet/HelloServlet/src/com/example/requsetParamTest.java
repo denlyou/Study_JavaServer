@@ -15,6 +15,11 @@ public class requsetParamTest extends HttpServlet {
         super();
     }
     
+    protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setContentType("text/plain;charset=UTF-8");
+		super.service(request, response);
+	}
+    
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.getWriter().append("Parameter UID : ").append(request.getParameter("uid"));
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
